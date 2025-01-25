@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "B-NAZANIN";
+    src: url("fonts/B-NAZANIN.TTF");
+}
+body {
+    background-color: rgb(246, 247, 252);
+}
+h1 {
+    margin-top: 20px;
+    color: rgb(34, 97, 122);
+    text-align: center;
+}
+p {
+    font-family: "B-NAZANIN";
+    font-size: 1.3em;
+    text-align: right;
+}
+p::first-letter{
+    margin-right: 50px;
+}
+p::selection{
+    background-color: rgba(141, 130, 130, 0.281);
+    color: rgb(9, 13, 238);
+}
+#container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(46, 66, 78);
+}
+.num{
+    font-size: 1.5em;
+    color: white;
+    font-family: "B-NAZANIN";
+    border-radius: 10px;
+    margin: 1px;
+    padding:3px 10px 3px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600px;
+}
+.num:hover {
+    font-size: 1.6em;
+    background-color: whitesmoke;
+    color: rgb(46, 66, 78);
+}
+#container button {
+    font-size: 1.5em;
+    font-family: "B-NAZANIN";
+    font-weight: bold;
+    color: white;
+    background-color: rgb(46, 66, 78);
+    border: none;
+    border-radius: 10px;
+    margin: 1px;
+    padding:3px 10px 3px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600px;
+}
+#container button:hover {
+    background-color: whitesmoke;
+    color: rgb(46, 66, 78);
+    font-weight: bold;
+}
+.active {
+    background-color: white;
+    color: rgb(46, 66, 78);
+}
